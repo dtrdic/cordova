@@ -12,7 +12,6 @@ workflows:
         - githubToken
         - token
         - aws_credentials
-        - cvm_path
       vars:
         PACKAGE_NAME: "io.codemagic.dtrdic13"
     triggering:
