@@ -25,8 +25,8 @@ workflows:
     scripts:
       - name: Install npm dependencies and update Cordova version
         script: | 
-          # npm install
-          # npm ci # equivalent of npm install for CI systems.
+          npm install
+          npm ci # equivalent of npm install for CI systems.
           #   # Requires package-lock.json or npm-shrinkwrap.json to be present
           cvm install 11.0.0
           cvm use 11.0.0
