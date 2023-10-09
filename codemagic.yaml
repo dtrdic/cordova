@@ -8,10 +8,7 @@ workflows:
         - davidKeystore
       groups:
         - google_play_credentials
-        - githubPassword
-        - githubToken
-        - token
-        - aws_credentials
+        - cvm_path
       vars:
         PACKAGE_NAME: "io.codemagic.dtrdic13"
     triggering:
