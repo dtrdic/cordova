@@ -28,8 +28,8 @@ workflows:
           # npm install
           # npm ci # equivalent of npm install for CI systems.
           #   # Requires package-lock.json or npm-shrinkwrap.json to be present
-          cvm install 12.0.0
-          cvm use 12.0.0
+          cvm install 11.0.0
+          cvm use 11.0.0
       - name: Setup Cordova Android platform
         script: | 
           ionic cordova platform remove android --nosave
